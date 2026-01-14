@@ -20,7 +20,7 @@ app.use("/auth", userRouter);
 app.use("/cart", cartRouter);
 app.use("/order", orderRouter);
 
-app.get("/", (req, res) => {
+app.get("/", (_req, res) => {
   res.send("Hello, TypeScript Node Express!");
 });
 
